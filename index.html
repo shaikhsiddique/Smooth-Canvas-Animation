@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smooth Canvas Animation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="w-full">
+    <div class="parent w-full h-[2000vh] ">
+      <div class="w-full h-screen flex  sticky top-0 left-0 overflow-x-hidden">
+        <canvas class="w-full h-screen" id="canvas"></canvas>
+        <div class="absolute animate1 z-[2] text-white bottom-10 left-10">
+            <h1 class="font-light text-3xl leading-tight">
+              &copy; 2024 DOZE STD
+            </h1>
+            <h1 class="text-3xl">
+              SHAPING BRANDS→ CRAFTING MOTION
+            </h1>
+          </div>
+          
+          <div class="absolute animate2 z-[2] text-white bottom-10 right-10 text-right opacity-0">
+            <h1 class="font-thin uppercase text-6xl leading-tight">
+              Transforming Visions
+            </h1>
+            <h1 class="text-xl w-full">
+              Building identity and inspiring action. Sculpting digital experiences that resonate.
+            </h1>
+          </div>
+          
+          <!-- Additional Divs -->
+          <div class="absolute animate3 z-[2] text-white opacity-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" >
+            <h1 class="font-semibold text-6xl text-white">
+              Innovate Today
+            </h1>
+            <p class="text-lg">
+              Crafting solutions for tomorrow.
+            </p>
+          </div>
+          
+          <div class="absolute animate4 z-[2] text-white top-10 right-10 opacity-0">
+            <h1 class="font-bold text-4xl">
+              Endless Possibilities
+            </h1>
+            <p class="text-2xl">
+              Where creativity meets technology.
+            </p>
+          </div>
+          
+          <div class="absolute animate5 z-[2] text-white bottom-20 right-10 opacity-0">
+            <h1 class="font-extrabold text-7xl">
+              Imagine. Create. Inspire.
+            </h1>
+          </div>
+          
+          <div  class="panel animatepanel  h-screen bg-white z-[3] shadow-2xl flex flex-col w-[30vw]">
+            <!-- Top Section -->
+            <div class="flex-1 flex flex-col justify-center items-center border-b border-gray-200 p-10 w-[30vw]">
+              <h2 class="text-4xl font-extrabold text-gray-900 mb-6 tracking-tight">Welcome to Elegance</h2>
+              <p class="text-gray-700 text-center leading-relaxed mb-8 text-lg">
+                Experience the art of branding with our sophisticated solutions that resonate.
+              </p>
+              <button class="bg-gradient-to-r from-red-600 to-red-800 text-white px-10 py-4 rounded-full shadow-xl hover:from-red-700 hover:to-red-900 transition duration-300 ease-in-out transform hover:scale-105">
+                Discover More
+              </button>
+              
+            </div>
+          
+            <!-- Bottom Section -->
+            <div class="flex-1 flex flex-col justify-center items-center p-10 w-[30vw]">
+              <h2 class="text-4xl font-extrabold text-gray-900 mb-6 tracking-tight">Start Your Journey</h2>
+              <p class="text-gray-700 text-center leading-relaxed mb-8 text-lg">
+                Join our community and embark on a journey of creativity and innovation.
+              </p>
+              <button class="bg-gradient-to-r from-green-600 to-green-800 text-white px-10 py-4 rounded-full shadow-xl hover:from-green-700 hover:to-green-900 transition duration-300 ease-in-out transform hover:scale-105">
+                Get Started
+              </button>
+            </div>
+          </div>
+          
+          
+          
+          <div class="absolute animate6 z-[2] text-white bottom-20 right-10 opacity-0">
+            <h1 class="italic text-4xl">
+              Pioneering the Future
+            </h1>
+          </div>
+          
+          <div class="absolute animate7 z-[2] text-white top-20 left-20 opacity-0">
+            <h1 class="underline text-3xl">
+              Beyond Boundaries
+            </h1>
+          </div>
+          
+          <div class="absolute animate8 z-[2] text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0">
+            <h1 class="font-light text-5xl">
+              Redefining Excellence
+            </h1>
+            <p class="text-lg">
+              Where dreams take shape.
+            </p>
+          </div>
+          
+          
+          <div class="absolute animate10 z-[2] text-white bottom-32 right-20 opacity-0">
+            <h1 class="font-bold text-4xl">
+              Precision in Motion
+            </h1>
+            <p class="text-xl">
+              The art of execution.
+            </p>
+          </div>
+          
+          
+          <div class="absolute animate9 z-[2] text-white bottom-40 left-10 opacity-0">
+            <h1 class="text-6xl">
+              Beyond Innovation
+            </h1>
+            <p class="text-lg">
+              Bridging ideas and reality.
+            </p>
+          </div>
+          
+          
+          
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
